@@ -1,0 +1,97 @@
+body {
+    background: url(assets/vangog.jpg);
+}
+.firstDiv {
+    margin-top: -40px;
+    display: block;
+    width: 99%;
+    height: 130px;
+    color: aqua;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+}
+
+.dropdaun-pocetno {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  }
+
+
+  .dropdaun-pocetno ul li{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+
+input[type="text"] {   
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    height: 26px;
+    width: 17%;
+    text-align: center;
+    
+}
+input[type="submit"]{
+    background-color: black;
+    color: azure;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 18%;
+}
+
+.seconDiv {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+
+  #unos1 {
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #lista1 {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #lista1 li {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #lista1 li:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
